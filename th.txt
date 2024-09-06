@@ -1,0 +1,10 @@
+CSS -- Cascading style sheet
+
+Founder of Css?
+-Hakon wium lie  -- in -- 1996
+
+
+There are three ways to define css.
+1. external css [.css]  
+2. internal css -- <style></style>
+3. inline css -- same line style=""
