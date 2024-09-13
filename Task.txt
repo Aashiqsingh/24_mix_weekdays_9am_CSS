@@ -1,0 +1,4 @@
+About C language
+- paragraph
+- advantage of c 
+- disadvantage of C language
