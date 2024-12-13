@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* .box{
+        height: 300px;
+        width: 300px;
+        background-image: url('https://cdn11.bigcommerce.com/s-x49po/images/stencil/1500x1500/products/124970/292158/prints%2Fdownscaled%2Fp_p8ptneuon6_2000x2000__11438.1705396860.jpg?c=2');
+        background-size: cover;
+    }
+    .box::before{
+        content: '';
+        position: absolute;
+        height: 300px;
+        width: 150px;
+        background-color: rgba(255, 68, 0, 0.655);
+        transition: 1s;
+    }
+    .box::after{
+        content: '';
+        position: absolute;
+        height: 300px;
+        width: 150px;
+        background-color: rgba(0, 0, 0, 0.635);
+        left: 158px; 
+        right: 972px;
+        transition: 1s;
+    }
+    .box:hover::before{
+        width: 0;
+        transition: 1s;
+    }
+    .box:hover::after{
+        width: 0;
+        transition: 1s;
+    } */
+
+
+
+    .box{
+        height: 300px;
+        width: 300px;
+        background-image: url('https://cdn11.bigcommerce.com/s-x49po/images/stencil/1500x1500/products/124970/292158/prints%2Fdownscaled%2Fp_p8ptneuon6_2000x2000__11438.1705396860.jpg?c=2');
+        background-size: cover;
+    }
+    .box::before{
+        content: '';
+        position: absolute;
+        height: 150px;
+        width: 300px;
+        /* background-color: rgba(255, 68, 0, 0.655); */
+        background-image: url('https://etimg.etb2bimg.com/photo/96493840.cms');
+        opacity: 0.6;
+        background-size: cover;
+        transition: 1s;
+    }
+    .box::after{
+        content: '';
+        position: absolute;
+        height: 150px;
+        width: 300px;
+        /* background-color: rgba(0, 0, 0, 0.635); */
+        /* left: 158px; */
+        /* right: 972px; */
+        background-image: url('https://akm-img-a-in.tosshub.com/businesstoday/images/story/202412/67517b4cda270-cm-yogi-adityanath--yogi-adityanath--cm-yogi--up-politics--up-news-050703151-16x9.png?size=948:533');
+        background-size: cover;
+        opacity: 0.6;
+        bottom: 252px;
+        transition: 1s;
+    }
+    .box:hover::before{
+        /* width: 0; */
+        height: 0;
+        transition: 1s;
+    }
+    .box:hover::after{
+        /* width: 0; */
+        height: 0;
+        transition: 1s;
+    }
+</style>
+<body>
+    
+    <div class="box">
+
+    </div>
+
+
+</body>
+</html>
