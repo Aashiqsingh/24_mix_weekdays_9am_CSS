@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+
+        background-image: url('https://cdn11.bigcommerce.com/s-x49po/images/stencil/1500x1500/products/7280/17056/36x24_40_83501.1434785755.1280.1280__70553.1506574143.jpg?c=2');
+        background-size: cover;
+    }
+    .box::before{
+        content: '';
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        background-color: rgba(255, 68, 0, 0.712);
+        transition: 1s;
+    }
+    .box:hover::before{
+        width: 0;
+        /* height: 0; */
+        transition: 1s;
+    }
+    .box2{
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+
+        background-image: url('https://cdn11.bigcommerce.com/s-x49po/images/stencil/1500x1500/products/7280/17056/36x24_40_83501.1434785755.1280.1280__70553.1506574143.jpg?c=2');
+        background-size: cover;
+        margin-left: 250px;
+        margin-top: -200px;
+        
+    }
+    .box2::before{
+        content: '';
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        background-color: rgba(0, 0, 0, 0.493);
+        transition: 1s;
+        right: 822px;
+    }
+    .box2:hover::before{
+        width: 0;
+    }
+    .box3{
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+
+        background-image: url('https://cdn11.bigcommerce.com/s-x49po/images/stencil/1500x1500/products/7280/17056/36x24_40_83501.1434785755.1280.1280__70553.1506574143.jpg?c=2');
+        background-size: cover;
+        margin-left: 500px;
+        margin-top: -200px;
+        
+    }
+    .box3::before{
+        content: '';
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        background-color: rgba(0, 0, 255, 0.589);
+        transition: 1s;
+        bottom: 350px;
+        right: 572px;
+    }
+    .box3:hover::before{
+        height: 0;
+        width: 0;
+    }
+</style>
+<body>
+    
+
+    <div class="box">
+
+    </div>
+    <div class="box2">
+
+    </div>
+
+    <div class="box3">
+
+    </div>
+
+
+</body>
+</html>
